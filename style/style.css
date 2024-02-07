@@ -1,0 +1,256 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* MY STYLES */
+
+body {
+	font-size: 16px;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.table {
+    margin: 0 auto;
+}
+
+.table, .table th, .table td {
+    font-size: 24px;
+    border: 4px solid red;
+}
+
+.table th {
+	text-align: left;
+	font-weight: 800;
+}
+
+/* td {
+    width: 100px;
+    height: 100px;
+} */
+
+.test-table {
+    margin-top: 40px;
+}
+
+.test-table td {
+    width: 150px;
+    height: 100px;
+}
+
+/* some table */
+
+.page {
+   
+   font-family: monospace;
+}
+
+.head {
+	padding: 20px 0;
+	background: black;
+	text-align: center;
+}
+
+.head h1 {
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	color: aliceblue;
+}
+
+.head-link {
+	font-size: 30px;
+	color: #bdbcdb;
+}
+
+.table-section {
+	padding: 60px 0;
+}
+
+.table-data {
+	width: 100%;
+	border-style: hidden;
+	color: #1a1a1a;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 0 0 2px #e4e4ef;
+}
+
+.table-data th,
+.table-data td {
+	border-top: 2px solid #e4e4ef;
+	vertical-align: middle;
+}
+
+.table-data th {
+	text-align: left;
+	font-weight: 700;
+	font-size: 16px;
+	padding: 18px 16px;
+	width: 400px;
+}
+
+.table-data th + th {
+	width: 400px;
+}
+
+.table-data th + th + th {
+	width: 160px;
+}
+
+.table-data th + th + th + th {
+	width: auto;
+}
+
+.table-data td {
+	padding: 8px 16px;
+	
+}
+
+.table-data td p + p {
+	color: #505050;
+	font-size: 12px;
+}
+
+.last-item {
+	text-align: center;
+}
+
+.btn {
+	cursor: pointer;
+	font-size: 12px;
+	padding: 6px 18px;
+	border-radius: 12px;
+	background: lightgray;
+	color: gray;
+}
+
+.btn.purple {
+	background: #ededfe;
+	color: #605dec;
+	padding: 4px 24px;
+}
+
+.btn.green {
+	color: #31aa27;
+	padding: 4px 24px;
+	background: #ebf6eb;
+}
+
+.btn.orange {
+	background: #fff4e4;
+	color: #e99518;
+	padding: 4px 24px;
+}
+
+.btn.coral {
+	background: #fff0f0;
+	color: #f93232;
+	padding: 4px 24px;
+}
+
+.btn.gray {
+	background: #f8f9fb;
+	color: #bdbcdb;
+	padding: 4px 24px;
+}
+
+        /* mondaran */
+
+.all {
+	border: 1px solid black;
+	border-collapse: separate;
+	border-spacing: 1px;
+	margin: 50px auto;
+}
+
+.all td {
+	width: 70px;
+	height: 70px;
+}
+
+.gray {
+	border: 1px solid black;
+	background: rgb(159, 154, 154);
+}
+
+.darkgreen {
+	border: 1px solid black;
+	background: darkgreen;
+}
+
+.blue {
+	border: 1px solid black;
+	background: rgb(29, 102, 219);
+}
+
+.gorch {
+	border: 1px solid black;
+	background: rgb(107, 122, 6);
+}
+
+.yellow {
+	border: 1px solid black;
+	background: yellow;
+}
+
+.lightgreen {
+	border: 1px solid black;
+	background: lightgreen;
+}
+
+
+
+
+
+
+
